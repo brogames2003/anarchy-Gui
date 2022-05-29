@@ -1,0 +1,458 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local anarchy = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local profile = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Username = Instance.new("TextLabel")
+local AvatarImage = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local skids = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local headuwu = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local DecorLine = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local DropShadow = Instance.new("ImageLabel")
+local mask = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local maskbutton = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local infyield = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local infyieldbutton = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local gravitygun = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local gravitybutton = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local lock = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local lockbutton = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local chatspy = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local chatspybutton = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+
+--Properties:
+
+anarchy.Name = "anarchy"
+anarchy.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = anarchy
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+main.Position = UDim2.new(0.653162003, 0, 0.203972369, 0)
+main.Size = UDim2.new(0, 405, 0, 336)
+
+profile.Name = "profile"
+profile.Parent = main
+profile.Active = true
+profile.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+profile.BorderColor3 = Color3.fromRGB(27, 42, 53)
+profile.Position = UDim2.new(0.0779765919, 0, 0.109608009, 0)
+profile.Size = UDim2.new(0, 192, 0, 64)
+
+UICorner.CornerRadius = UDim.new(0, 7)
+UICorner.Parent = profile
+
+Username.Name = "Username"
+Username.Parent = profile
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.Position = UDim2.new(0.303749979, 0, 0.484625012, -2)
+Username.Size = UDim2.new(0, 126, 0, 33)
+Username.Font = Enum.Font.Gotham
+Username.Text = ""
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextSize = 22.000
+Username.TextWrapped = true
+Username.TextXAlignment = Enum.TextXAlignment.Left
+
+AvatarImage.Name = "AvatarImage"
+AvatarImage.Parent = profile
+AvatarImage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AvatarImage.Position = UDim2.new(0.0365297012, 0, 0.140421867, 0)
+AvatarImage.Size = UDim2.new(0, 45, 0, 46)
+AvatarImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_2.CornerRadius = UDim.new(0, 50)
+UICorner_2.Parent = AvatarImage
+
+TextLabel.Parent = profile
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.268818855, 0, -4.76837158e-07, 0)
+TextLabel.Size = UDim2.new(0, 95, 0, 30)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Welcome"
+TextLabel.TextColor3 = Color3.fromRGB(135, 12, 156)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(195, 111, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(195, 111, 255))}
+UIGradient.Rotation = 120
+UIGradient.Parent = profile
+
+skids.Name = "skids"
+skids.Parent = main
+skids.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skids.BackgroundTransparency = 1.000
+skids.Position = UDim2.new(1.53166866, 0, 0.119520739, 0)
+skids.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_3.Parent = skids
+
+headuwu.Name = "headuwu"
+headuwu.Parent = skids
+headuwu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+headuwu.BackgroundTransparency = 1.000
+headuwu.Position = UDim2.new(-3.26701736, 0, -0.209865764, 0)
+headuwu.Size = UDim2.new(0, 100, 0, 100)
+headuwu.Image = "rbxthumb://type=AvatarHeadShot&id=371768392&w=420&h=420"
+
+UICorner_4.Parent = headuwu
+
+UICorner_5.Parent = main
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
+UIGradient_2.Rotation = 120
+UIGradient_2.Parent = main
+
+DecorLine.Name = "DecorLine"
+DecorLine.Parent = main
+DecorLine.BackgroundColor3 = Color3.fromRGB(134, 62, 170)
+DecorLine.BorderSizePixel = 0
+DecorLine.Size = UDim2.new(0, 405, 0, 8)
+
+UICorner_6.Parent = DecorLine
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = main
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.499751359, 0, 0.501215041, 0)
+DropShadow.Size = UDim2.new(1.02356732, 47, 1.02730846, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+mask.Name = "mask"
+mask.Parent = main
+mask.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mask.Position = UDim2.new(0.0808771923, 0, 0.447762847, 0)
+mask.Size = UDim2.new(0, 62, 0, 62)
+mask.Font = Enum.Font.SourceSans
+mask.Text = ""
+mask.TextColor3 = Color3.fromRGB(0, 0, 0)
+mask.TextSize = 14.000
+
+UICorner_7.Parent = mask
+
+maskbutton.Name = "mask button"
+maskbutton.Parent = mask
+maskbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+maskbutton.BackgroundTransparency = 1.000
+maskbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+maskbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+maskbutton.Size = UDim2.new(0, 105, 0, 22)
+maskbutton.Font = Enum.Font.GothamBlack
+maskbutton.Text = "remove mask"
+maskbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+maskbutton.TextSize = 9.000
+maskbutton.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_3.Rotation = 120
+UIGradient_3.Parent = mask
+
+infyield.Name = "inf yield"
+infyield.Parent = main
+infyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infyield.Position = UDim2.new(0.0791227967, 0, 0.671716213, 0)
+infyield.Size = UDim2.new(0, 62, 0, 62)
+infyield.Font = Enum.Font.SourceSans
+infyield.Text = ""
+infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infyield.TextSize = 14.000
+
+UICorner_8.Parent = infyield
+
+infyieldbutton.Name = "inf yield button"
+infyieldbutton.Parent = infyield
+infyieldbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infyieldbutton.BackgroundTransparency = 1.000
+infyieldbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+infyieldbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+infyieldbutton.Size = UDim2.new(0, 105, 0, 22)
+infyieldbutton.Font = Enum.Font.GothamBlack
+infyieldbutton.Text = "INF YIELD"
+infyieldbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+infyieldbutton.TextSize = 9.000
+infyieldbutton.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_4.Rotation = 120
+UIGradient_4.Parent = infyield
+
+gravitygun.Name = "gravity gun"
+gravitygun.Parent = main
+gravitygun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gravitygun.Position = UDim2.new(0.287244976, 0, 0.447762847, 0)
+gravitygun.Size = UDim2.new(0, 62, 0, 62)
+gravitygun.Font = Enum.Font.SourceSans
+gravitygun.Text = ""
+gravitygun.TextColor3 = Color3.fromRGB(0, 0, 0)
+gravitygun.TextSize = 14.000
+
+UICorner_9.Parent = gravitygun
+
+gravitybutton.Name = "gravity button"
+gravitybutton.Parent = gravitygun
+gravitybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gravitybutton.BackgroundTransparency = 1.000
+gravitybutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+gravitybutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+gravitybutton.Size = UDim2.new(0, 105, 0, 22)
+gravitybutton.Font = Enum.Font.GothamBlack
+gravitybutton.Text = "gravity gun"
+gravitybutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+gravitybutton.TextSize = 9.000
+gravitybutton.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_5.Rotation = 120
+UIGradient_5.Parent = gravitygun
+
+lock.Name = "lock"
+lock.Parent = main
+lock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lock.Position = UDim2.new(0.287244976, 0, 0.676929533, 0)
+lock.Size = UDim2.new(0, 62, 0, 62)
+lock.Font = Enum.Font.SourceSans
+lock.Text = ""
+lock.TextColor3 = Color3.fromRGB(0, 0, 0)
+lock.TextSize = 14.000
+
+UICorner_10.Parent = lock
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_6.Rotation = 120
+UIGradient_6.Parent = lock
+
+lockbutton.Name = "lockbutton"
+lockbutton.Parent = lock
+lockbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lockbutton.BackgroundTransparency = 1.000
+lockbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+lockbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+lockbutton.Size = UDim2.new(0, 105, 0, 22)
+lockbutton.Font = Enum.Font.GothamBlack
+lockbutton.Text = "lock"
+lockbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+lockbutton.TextScaled = true
+lockbutton.TextSize = 9.000
+lockbutton.TextWrapped = true
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0660061836, 0, 0.0191459879, 0)
+TextLabel_2.Size = UDim2.new(0, 201, 0, 30)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "hood Anarchy"
+TextLabel_2.TextColor3 = Color3.fromRGB(135, 12, 156)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+chatspy.Name = "chat spy"
+chatspy.Parent = main
+chatspy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+chatspy.Position = UDim2.new(0.497121513, 0, 0.450739026, 0)
+chatspy.Size = UDim2.new(0, 62, 0, 62)
+chatspy.Font = Enum.Font.SourceSans
+chatspy.Text = ""
+chatspy.TextColor3 = Color3.fromRGB(0, 0, 0)
+chatspy.TextSize = 14.000
+
+UICorner_11.Parent = chatspy
+
+chatspybutton.Name = "chat spy button"
+chatspybutton.Parent = chatspy
+chatspybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+chatspybutton.BackgroundTransparency = 1.000
+chatspybutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+chatspybutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+chatspybutton.Size = UDim2.new(0, 105, 0, 22)
+chatspybutton.Font = Enum.Font.GothamBlack
+chatspybutton.Text = "chat spy"
+chatspybutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+chatspybutton.TextSize = 15.000
+chatspybutton.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_7.Rotation = 120
+UIGradient_7.Parent = chatspy
+
+-- Scripts:
+
+local function DPKRCD_fake_script() -- Username.LocalScript 
+	local script = Instance.new('LocalScript', Username)
+
+	script.Parent.Text = "@" .. game.Players.LocalPlayer.Name;
+	
+end
+coroutine.wrap(DPKRCD_fake_script)()
+local function MXGSCW_fake_script() -- AvatarImage.LocalScript 
+	local script = Instance.new('LocalScript', AvatarImage)
+
+	local l__Players__1 = game:GetService("Players");
+	local v2, v3 = l__Players__1:GetUserThumbnailAsync(l__Players__1.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420);
+	script.Parent.Image = v2;
+	
+end
+coroutine.wrap(MXGSCW_fake_script)()
+local function VZEU_fake_script() -- headuwu.LocalScript 
+	local script = Instance.new('LocalScript', headuwu)
+
+	local picture = script.Parent.Parent.headuwu
+	local bro = 'rbxthumb://type=AvatarHeadShot&id=392728842&w=420&h=420' --brogames2003
+	
+	
+	
+	while true do
+	
+		picture.Image = bro
+		wait(3)
+		
+	end
+end
+coroutine.wrap(VZEU_fake_script)()
+local function EVKYJ_fake_script() -- main.hidefromthepolice 
+	local script = Instance.new('LocalScript', main)
+
+	local UIS = game:GetService("UserInputService")
+	local gui = script.Parent
+	
+	UIS.InputBegan:Connect(function(key,b)
+		
+		if key.KeyCode == Enum.KeyCode.V and not b then
+			if gui.Visible == true then
+				gui.Visible = false
+			else
+				gui.Visible = true
+			end
+		end
+	end)
+end
+coroutine.wrap(EVKYJ_fake_script)()
+local function TKEEIZZ_fake_script() -- main.dragg 
+	local script = Instance.new('LocalScript', main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(TKEEIZZ_fake_script)()
+local function LTLY_fake_script() -- mask.LocalScript 
+	local script = Instance.new('LocalScript', mask)
+
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/mask-remover/main/mask%20remover%20anarchy'))()
+	end)
+end
+coroutine.wrap(LTLY_fake_script)()
+local function WDRQA_fake_script() -- infyield.LocalScript 
+	local script = Instance.new('LocalScript', infyield)
+
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(WDRQA_fake_script)()
+local function ZLDLOKC_fake_script() -- gravitygun.LocalScript 
+	local script = Instance.new('LocalScript', gravitygun)
+
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/gravity-gun/main/gravity%20gun'))()
+	end)
+end
+coroutine.wrap(ZLDLOKC_fake_script)()
+local function OZWEHVN_fake_script() -- lock.LocalScript 
+	local script = Instance.new('LocalScript', lock)
+
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/aim/main/kitten%20assist'))()
+	end)
+end
+coroutine.wrap(OZWEHVN_fake_script)()
+local function VUAYZGB_fake_script() -- chatspy.LocalScript 
+	local script = Instance.new('LocalScript', chatspy)
+
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/chat-spy/main/chat%20spy'))()
+	end)
+end
+coroutine.wrap(VUAYZGB_fake_script)()
