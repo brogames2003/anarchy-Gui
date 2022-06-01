@@ -355,6 +355,7 @@ Teleports.Parent = main
 Teleports.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 Teleports.Position = UDim2.new(0.0551848225, 0, 0.447762817, 0)
 Teleports.Size = UDim2.new(0, 360, 0, 159)
+Teleports.Visible = false
 
 UICorner_12.Parent = Teleports
 
@@ -638,14 +639,14 @@ TextLabel_11.TextWrapped = true
 
 -- Scripts:
 
-local function PBIXC_fake_script() -- Username.LocalScript 
+local function JKKZU_fake_script() -- Username.LocalScript 
 	local script = Instance.new('LocalScript', Username)
 
 	script.Parent.Text = "@" .. game.Players.LocalPlayer.Name;
 	
 end
-coroutine.wrap(PBIXC_fake_script)()
-local function RUXKQZ_fake_script() -- AvatarImage.LocalScript 
+coroutine.wrap(JKKZU_fake_script)()
+local function FQGP_fake_script() -- AvatarImage.LocalScript 
 	local script = Instance.new('LocalScript', AvatarImage)
 
 	local l__Players__1 = game:GetService("Players");
@@ -653,8 +654,8 @@ local function RUXKQZ_fake_script() -- AvatarImage.LocalScript
 	script.Parent.Image = v2;
 	
 end
-coroutine.wrap(RUXKQZ_fake_script)()
-local function BTZJETG_fake_script() -- headuwu.LocalScript 
+coroutine.wrap(FQGP_fake_script)()
+local function LXKJGJ_fake_script() -- headuwu.LocalScript 
 	local script = Instance.new('LocalScript', headuwu)
 
 	local picture = script.Parent.Parent.headuwu
@@ -669,8 +670,8 @@ local function BTZJETG_fake_script() -- headuwu.LocalScript
 		
 	end
 end
-coroutine.wrap(BTZJETG_fake_script)()
-local function SUGC_fake_script() -- main.hidefromthepolice 
+coroutine.wrap(LXKJGJ_fake_script)()
+local function JHTJLS_fake_script() -- main.hidefromthepolice 
 	local script = Instance.new('LocalScript', main)
 
 	local UIS = game:GetService("UserInputService")
@@ -687,8 +688,8 @@ local function SUGC_fake_script() -- main.hidefromthepolice
 		end
 	end)
 end
-coroutine.wrap(SUGC_fake_script)()
-local function ZRAYPI_fake_script() -- main.dragg 
+coroutine.wrap(JHTJLS_fake_script)()
+local function NKBR_fake_script() -- main.dragg 
 	local script = Instance.new('LocalScript', main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -731,8 +732,8 @@ local function ZRAYPI_fake_script() -- main.dragg
 		end
 	end)
 end
-coroutine.wrap(ZRAYPI_fake_script)()
-local function EWHVQIU_fake_script() -- mask.LocalScript 
+coroutine.wrap(NKBR_fake_script)()
+local function RBLMR_fake_script() -- mask.LocalScript 
 	local script = Instance.new('LocalScript', mask)
 
 	local button = script.parent
@@ -741,8 +742,8 @@ local function EWHVQIU_fake_script() -- mask.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/mask-remover/main/mask%20remover%20anarchy'))()
 	end)
 end
-coroutine.wrap(EWHVQIU_fake_script)()
-local function UOQKS_fake_script() -- infyield.LocalScript 
+coroutine.wrap(RBLMR_fake_script)()
+local function RMTTLPX_fake_script() -- infyield.LocalScript 
 	local script = Instance.new('LocalScript', infyield)
 
 	local button = script.parent
@@ -751,8 +752,8 @@ local function UOQKS_fake_script() -- infyield.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(UOQKS_fake_script)()
-local function HIHIEDX_fake_script() -- gravitygun.LocalScript 
+coroutine.wrap(RMTTLPX_fake_script)()
+local function CKPR_fake_script() -- gravitygun.LocalScript 
 	local script = Instance.new('LocalScript', gravitygun)
 
 	local button = script.parent
@@ -761,8 +762,8 @@ local function HIHIEDX_fake_script() -- gravitygun.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/gravity-gun/main/gravity%20gun'))()
 	end)
 end
-coroutine.wrap(HIHIEDX_fake_script)()
-local function NPXN_fake_script() -- lock.LocalScript 
+coroutine.wrap(CKPR_fake_script)()
+local function LKITWS_fake_script() -- lock.LocalScript 
 	local script = Instance.new('LocalScript', lock)
 
 	local button = script.parent
@@ -771,8 +772,8 @@ local function NPXN_fake_script() -- lock.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/aim/main/kitten%20assist'))()
 	end)
 end
-coroutine.wrap(NPXN_fake_script)()
-local function KKVE_fake_script() -- chatspy.LocalScript 
+coroutine.wrap(LKITWS_fake_script)()
+local function KLDKEJ_fake_script() -- chatspy.LocalScript 
 	local script = Instance.new('LocalScript', chatspy)
 
 	local button = script.parent
@@ -781,8 +782,8 @@ local function KKVE_fake_script() -- chatspy.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/chat-spy/main/chat%20spy'))()
 	end)
 end
-coroutine.wrap(KKVE_fake_script)()
-local function FAHEOUF_fake_script() -- gym.LocalScript 
+coroutine.wrap(KLDKEJ_fake_script)()
+local function NBDW_fake_script() -- gym.LocalScript 
 	local script = Instance.new('LocalScript', gym)
 
 	local button = script.parent
@@ -791,8 +792,8 @@ local function FAHEOUF_fake_script() -- gym.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/gym'))()
 	end)
 end
-coroutine.wrap(FAHEOUF_fake_script)()
-local function FNBYNC_fake_script() -- bank.LocalScript 
+coroutine.wrap(NBDW_fake_script)()
+local function CIEF_fake_script() -- bank.LocalScript 
 	local script = Instance.new('LocalScript', bank)
 
 	local button = script.parent
@@ -801,8 +802,8 @@ local function FNBYNC_fake_script() -- bank.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/bank'))()
 	end)
 end
-coroutine.wrap(FNBYNC_fake_script)()
-local function MLCQ_fake_script() -- casino.LocalScript 
+coroutine.wrap(CIEF_fake_script)()
+local function JMNV_fake_script() -- casino.LocalScript 
 	local script = Instance.new('LocalScript', casino)
 
 	local button = script.parent
@@ -811,8 +812,8 @@ local function MLCQ_fake_script() -- casino.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/casino'))()
 	end)
 end
-coroutine.wrap(MLCQ_fake_script)()
-local function ROIDW_fake_script() -- bridge.LocalScript 
+coroutine.wrap(JMNV_fake_script)()
+local function FABV_fake_script() -- bridge.LocalScript 
 	local script = Instance.new('LocalScript', bridge)
 
 	local button = script.parent
@@ -821,8 +822,8 @@ local function ROIDW_fake_script() -- bridge.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/bridge'))()
 	end)
 end
-coroutine.wrap(ROIDW_fake_script)()
-local function WHWZD_fake_script() -- mask_2.LocalScript 
+coroutine.wrap(FABV_fake_script)()
+local function PZDHB_fake_script() -- mask_2.LocalScript 
 	local script = Instance.new('LocalScript', mask_2)
 
 	local button = script.parent
@@ -831,8 +832,8 @@ local function WHWZD_fake_script() -- mask_2.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/mask'))()
 	end)
 end
-coroutine.wrap(WHWZD_fake_script)()
-local function OMDWDMW_fake_script() -- smg.LocalScript 
+coroutine.wrap(PZDHB_fake_script)()
+local function RNISLHR_fake_script() -- smg.LocalScript 
 	local script = Instance.new('LocalScript', smg)
 
 	local button = script.parent
@@ -841,8 +842,8 @@ local function OMDWDMW_fake_script() -- smg.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/smg'))()
 	end)
 end
-coroutine.wrap(OMDWDMW_fake_script)()
-local function CDVCDUV_fake_script() -- doublebarrel.LocalScript 
+coroutine.wrap(RNISLHR_fake_script)()
+local function LGTD_fake_script() -- doublebarrel.LocalScript 
 	local script = Instance.new('LocalScript', doublebarrel)
 
 	local button = script.parent
@@ -851,8 +852,8 @@ local function CDVCDUV_fake_script() -- doublebarrel.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/db'))()
 	end)
 end
-coroutine.wrap(CDVCDUV_fake_script)()
-local function SXNV_fake_script() -- revolver.LocalScript 
+coroutine.wrap(LGTD_fake_script)()
+local function DKGDIGL_fake_script() -- revolver.LocalScript 
 	local script = Instance.new('LocalScript', revolver)
 
 	local button = script.parent
@@ -861,8 +862,8 @@ local function SXNV_fake_script() -- revolver.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/revolvers'))()
 	end)
 end
-coroutine.wrap(SXNV_fake_script)()
-local function KZBIDR_fake_script() -- tele.LocalScript 
+coroutine.wrap(DKGDIGL_fake_script)()
+local function VYFM_fake_script() -- tele.LocalScript 
 	local script = Instance.new('LocalScript', tele)
 
 	local anarchy = script.Parent.Parent
@@ -880,4 +881,4 @@ local function KZBIDR_fake_script() -- tele.LocalScript
 	
 	-- wardone best pro scripter ive ever seen he did this with his eyes closed and typed with his feet
 end
-coroutine.wrap(KZBIDR_fake_script)()
+coroutine.wrap(VYFM_fake_script)()
