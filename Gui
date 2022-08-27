@@ -1,1310 +1,1354 @@
-	-- Gui to Lua
-	-- Version: 3.2
-
-	-- Instances:
-
-	local anarchy = Instance.new("ScreenGui")
-	local main = Instance.new("Frame")
-	local profile = Instance.new("Frame")
-	local UICorner = Instance.new("UICorner")
-	local Username = Instance.new("TextLabel")
-	local AvatarImage = Instance.new("ImageLabel")
-	local UICorner_2 = Instance.new("UICorner")
-	local TextLabel = Instance.new("TextLabel")
-	local UIGradient = Instance.new("UIGradient")
-	local skids = Instance.new("Frame")
-	local UICorner_3 = Instance.new("UICorner")
-	local headuwu = Instance.new("ImageLabel")
-	local UICorner_4 = Instance.new("UICorner")
-	local DropShadow = Instance.new("ImageLabel")
-	local mask = Instance.new("TextButton")
-	local UICorner_5 = Instance.new("UICorner")
-	local maskbutton = Instance.new("TextLabel")
-	local UIGradient_2 = Instance.new("UIGradient")
-	local infyield = Instance.new("TextButton")
-	local UICorner_6 = Instance.new("UICorner")
-	local infyieldbutton = Instance.new("TextLabel")
-	local UIGradient_3 = Instance.new("UIGradient")
-	local gravitygun = Instance.new("TextButton")
-	local UICorner_7 = Instance.new("UICorner")
-	local gravitybutton = Instance.new("TextLabel")
-	local UIGradient_4 = Instance.new("UIGradient")
-	local lock = Instance.new("TextButton")
-	local UICorner_8 = Instance.new("UICorner")
-	local UIGradient_5 = Instance.new("UIGradient")
-	local lockbutton = Instance.new("TextLabel")
-	local TextLabel_2 = Instance.new("TextLabel")
-	local chatspy = Instance.new("TextButton")
-	local UICorner_9 = Instance.new("UICorner")
-	local chatspybutton = Instance.new("TextLabel")
-	local UIGradient_6 = Instance.new("UIGradient")
-	local Teleports = Instance.new("Frame")
-	local UICorner_10 = Instance.new("UICorner")
-	local DropShadow_2 = Instance.new("ImageLabel")
-	local gym = Instance.new("TextButton")
-	local UICorner_11 = Instance.new("UICorner")
-	local TextLabel_3 = Instance.new("TextLabel")
-	local UIGradient_7 = Instance.new("UIGradient")
-	local UIGradient_8 = Instance.new("UIGradient")
-	local bank = Instance.new("TextButton")
-	local UICorner_12 = Instance.new("UICorner")
-	local TextLabel_4 = Instance.new("TextLabel")
-	local UIGradient_9 = Instance.new("UIGradient")
-	local casino = Instance.new("TextButton")
-	local UICorner_13 = Instance.new("UICorner")
-	local TextLabel_5 = Instance.new("TextLabel")
-	local UIGradient_10 = Instance.new("UIGradient")
-	local bridge = Instance.new("TextButton")
-	local UICorner_14 = Instance.new("UICorner")
-	local TextLabel_6 = Instance.new("TextLabel")
-	local UIGradient_11 = Instance.new("UIGradient")
-	local mask_2 = Instance.new("TextButton")
-	local UICorner_15 = Instance.new("UICorner")
-	local TextLabel_7 = Instance.new("TextLabel")
-	local UIGradient_12 = Instance.new("UIGradient")
-	local smg = Instance.new("TextButton")
-	local UICorner_16 = Instance.new("UICorner")
-	local TextLabel_8 = Instance.new("TextLabel")
-	local UIGradient_13 = Instance.new("UIGradient")
-	local doublebarrel = Instance.new("TextButton")
-	local UICorner_17 = Instance.new("UICorner")
-	local TextLabel_9 = Instance.new("TextLabel")
-	local UIGradient_14 = Instance.new("UIGradient")
-	local revolver = Instance.new("TextButton")
-	local UICorner_18 = Instance.new("UICorner")
-	local TextLabel_10 = Instance.new("TextLabel")
-	local UIGradient_15 = Instance.new("UIGradient")
-	local tele = Instance.new("TextButton")
-	local UICorner_19 = Instance.new("UICorner")
-	local UIGradient_16 = Instance.new("UIGradient")
-	local TextLabel_11 = Instance.new("TextLabel")
-	local DecorLine = Instance.new("Frame")
-	local UICorner_20 = Instance.new("UICorner")
-	local UICorner_21 = Instance.new("UICorner")
-	local UIGradient_17 = Instance.new("UIGradient")
-	local auto = Instance.new("TextButton")
-	local UICorner_22 = Instance.new("UICorner")
-	local UIGradient_18 = Instance.new("UIGradient")
-	local TextLabel_12 = Instance.new("TextLabel")
-	local autobuy = Instance.new("Frame")
-	local UICorner_23 = Instance.new("UICorner")
-	local DropShadow_3 = Instance.new("ImageLabel")
-	local UIGradient_19 = Instance.new("UIGradient")
-	local rpg = Instance.new("TextButton")
-	local UICorner_24 = Instance.new("UICorner")
-	local UIGradient_20 = Instance.new("UIGradient")
-	local TextLabel_13 = Instance.new("TextLabel")
-	local armor = Instance.new("TextButton")
-	local UICorner_25 = Instance.new("UICorner")
-	local TextLabel_14 = Instance.new("TextLabel")
-	local UIGradient_21 = Instance.new("UIGradient")
-	local dualsmg = Instance.new("TextButton")
-	local UICorner_26 = Instance.new("UICorner")
-	local TextLabel_15 = Instance.new("TextLabel")
-	local UIGradient_22 = Instance.new("UIGradient")
-	local db = Instance.new("TextButton")
-	local UICorner_27 = Instance.new("UICorner")
-	local TextLabel_16 = Instance.new("TextLabel")
-	local UIGradient_23 = Instance.new("UIGradient")
-	local dualrev = Instance.new("TextButton")
-	local UICorner_28 = Instance.new("UICorner")
-	local TextLabel_17 = Instance.new("TextLabel")
-	local UIGradient_24 = Instance.new("UIGradient")
-	local mask_3 = Instance.new("TextButton")
-	local UICorner_29 = Instance.new("UICorner")
-	local TextLabel_18 = Instance.new("TextLabel")
-	local UIGradient_25 = Instance.new("UIGradient")
-	local revolver_2 = Instance.new("TextButton")
-	local UICorner_30 = Instance.new("UICorner")
-	local TextLabel_19 = Instance.new("TextLabel")
-	local UIGradient_26 = Instance.new("UIGradient")
-	local smg_2 = Instance.new("TextButton")
-	local UICorner_31 = Instance.new("UICorner")
-	local TextLabel_20 = Instance.new("TextLabel")
-	local UIGradient_27 = Instance.new("UIGradient")
-
-	--Properties:
-
-	anarchy.Name = "anarchy"
-	anarchy.Parent = game.CoreGui
-
-	main.Name = "main"
-	main.Parent = anarchy
-	main.Active = true
-	main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-	main.Position = UDim2.new(0.686522722, 0, 0.0499410778, 0)
-	main.Size = UDim2.new(0, 405, 0, 336)
-
-	profile.Name = "profile"
-	profile.Parent = main
-	profile.Active = true
-	profile.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
-	profile.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	profile.Position = UDim2.new(0.0779765919, 0, 0.109608009, 0)
-	profile.Size = UDim2.new(0, 192, 0, 64)
-
-	UICorner.CornerRadius = UDim.new(0, 7)
-	UICorner.Parent = profile
-
-	Username.Name = "Username"
-	Username.Parent = profile
-	Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Username.BackgroundTransparency = 1.000
-	Username.Position = UDim2.new(0.303749979, 0, 0.484625012, -2)
-	Username.Size = UDim2.new(0, 126, 0, 33)
-	Username.Font = Enum.Font.Gotham
-	Username.Text = ""
-	Username.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Username.TextSize = 22.000
-	Username.TextWrapped = true
-	Username.TextXAlignment = Enum.TextXAlignment.Left
-
-	AvatarImage.Name = "AvatarImage"
-	AvatarImage.Parent = profile
-	AvatarImage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	AvatarImage.Position = UDim2.new(0.0365297012, 0, 0.140421867, 0)
-	AvatarImage.Size = UDim2.new(0, 45, 0, 46)
-	AvatarImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-
-	UICorner_2.CornerRadius = UDim.new(0, 50)
-	UICorner_2.Parent = AvatarImage
-
-	TextLabel.Parent = profile
-	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.BackgroundTransparency = 1.000
-	TextLabel.Position = UDim2.new(0.268818855, 0, -4.76837158e-07, 0)
-	TextLabel.Size = UDim2.new(0, 95, 0, 30)
-	TextLabel.Font = Enum.Font.SciFi
-	TextLabel.Text = "Welcome"
-	TextLabel.TextColor3 = Color3.fromRGB(135, 12, 156)
-	TextLabel.TextScaled = true
-	TextLabel.TextSize = 14.000
-	TextLabel.TextWrapped = true
-
-	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(195, 111, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(195, 111, 255))}
-	UIGradient.Rotation = 120
-	UIGradient.Parent = profile
-
-	skids.Name = "skids"
-	skids.Parent = main
-	skids.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	skids.BackgroundTransparency = 1.000
-	skids.Position = UDim2.new(1.53166866, 0, 0.119520739, 0)
-	skids.Size = UDim2.new(0, 100, 0, 100)
-
-	UICorner_3.Parent = skids
-
-	headuwu.Name = "headuwu"
-	headuwu.Parent = skids
-	headuwu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	headuwu.BackgroundTransparency = 1.000
-	headuwu.Position = UDim2.new(-3.26701736, 0, -0.209865764, 0)
-	headuwu.Size = UDim2.new(0, 100, 0, 100)
-	headuwu.Image = "rbxthumb://type=AvatarHeadShot&id=392728842&w=420&h=420"
-
-	UICorner_4.Parent = headuwu
-
-	DropShadow.Name = "DropShadow"
-	DropShadow.Parent = main
-	DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
-	DropShadow.BackgroundTransparency = 1.000
-	DropShadow.BorderSizePixel = 0
-	DropShadow.Position = UDim2.new(0.499751359, 0, 0.501215041, 0)
-	DropShadow.Size = UDim2.new(1.02356732, 47, 1.02730846, 47)
-	DropShadow.ZIndex = 0
-	DropShadow.Image = "rbxassetid://6014261993"
-	DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
-	DropShadow.ImageTransparency = 0.500
-	DropShadow.ScaleType = Enum.ScaleType.Slice
-	DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
-
-	mask.Name = "mask"
-	mask.Parent = main
-	mask.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	mask.Position = UDim2.new(0.0907537341, 0, 0.489429504, 0)
-	mask.Size = UDim2.new(0, 62, 0, 62)
-	mask.Font = Enum.Font.SourceSans
-	mask.Text = ""
-	mask.TextColor3 = Color3.fromRGB(0, 0, 0)
-	mask.TextSize = 14.000
-
-	UICorner_5.Parent = mask
-
-	maskbutton.Name = "mask button"
-	maskbutton.Parent = mask
-	maskbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	maskbutton.BackgroundTransparency = 1.000
-	maskbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	maskbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
-	maskbutton.Size = UDim2.new(0, 105, 0, 22)
-	maskbutton.Font = Enum.Font.GothamBlack
-	maskbutton.Text = "remove mask"
-	maskbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
-	maskbutton.TextSize = 9.000
-	maskbutton.TextWrapped = true
-
-	UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_2.Rotation = 120
-	UIGradient_2.Parent = mask
-
-	infyield.Name = "inf yield"
-	infyield.Parent = main
-	infyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	infyield.Position = UDim2.new(0.0889993384, 0, 0.7133829, 0)
-	infyield.Size = UDim2.new(0, 62, 0, 62)
-	infyield.Font = Enum.Font.SourceSans
-	infyield.Text = ""
-	infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
-	infyield.TextSize = 14.000
-
-	UICorner_6.Parent = infyield
-
-	infyieldbutton.Name = "inf yield button"
-	infyieldbutton.Parent = infyield
-	infyieldbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	infyieldbutton.BackgroundTransparency = 1.000
-	infyieldbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	infyieldbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
-	infyieldbutton.Size = UDim2.new(0, 105, 0, 22)
-	infyieldbutton.Font = Enum.Font.GothamBlack
-	infyieldbutton.Text = "INF YIELD"
-	infyieldbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
-	infyieldbutton.TextSize = 9.000
-	infyieldbutton.TextWrapped = true
-
-	UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_3.Rotation = 120
-	UIGradient_3.Parent = infyield
-
-	gravitygun.Name = "gravity gun"
-	gravitygun.Parent = main
-	gravitygun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	gravitygun.Position = UDim2.new(0.297121525, 0, 0.489429504, 0)
-	gravitygun.Size = UDim2.new(0, 62, 0, 62)
-	gravitygun.Font = Enum.Font.SourceSans
-	gravitygun.Text = ""
-	gravitygun.TextColor3 = Color3.fromRGB(0, 0, 0)
-	gravitygun.TextSize = 14.000
-
-	UICorner_7.Parent = gravitygun
-
-	gravitybutton.Name = "gravity button"
-	gravitybutton.Parent = gravitygun
-	gravitybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	gravitybutton.BackgroundTransparency = 1.000
-	gravitybutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	gravitybutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
-	gravitybutton.Size = UDim2.new(0, 105, 0, 22)
-	gravitybutton.Font = Enum.Font.GothamBlack
-	gravitybutton.Text = "gravity gun"
-	gravitybutton.TextColor3 = Color3.fromRGB(255, 255, 255)
-	gravitybutton.TextSize = 9.000
-	gravitybutton.TextWrapped = true
-
-	UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_4.Rotation = 120
-	UIGradient_4.Parent = gravitygun
-
-	lock.Name = "lock"
-	lock.Parent = main
-	lock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	lock.Position = UDim2.new(0.297121525, 0, 0.71859622, 0)
-	lock.Size = UDim2.new(0, 62, 0, 62)
-	lock.Font = Enum.Font.SourceSans
-	lock.Text = ""
-	lock.TextColor3 = Color3.fromRGB(0, 0, 0)
-	lock.TextSize = 14.000
-
-	UICorner_8.Parent = lock
-
-	UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_5.Rotation = 120
-	UIGradient_5.Parent = lock
-
-	lockbutton.Name = "lockbutton"
-	lockbutton.Parent = lock
-	lockbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	lockbutton.BackgroundTransparency = 1.000
-	lockbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	lockbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
-	lockbutton.Size = UDim2.new(0, 105, 0, 22)
-	lockbutton.Font = Enum.Font.GothamBlack
-	lockbutton.Text = "lock"
-	lockbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
-	lockbutton.TextScaled = true
-	lockbutton.TextSize = 9.000
-	lockbutton.TextWrapped = true
-
-	TextLabel_2.Parent = main
-	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_2.BackgroundTransparency = 1.000
-	TextLabel_2.Position = UDim2.new(0.0660061836, 0, 0.0191459879, 0)
-	TextLabel_2.Size = UDim2.new(0, 201, 0, 30)
-	TextLabel_2.Font = Enum.Font.SciFi
-	TextLabel_2.Text = "hood Anarchy"
-	TextLabel_2.TextColor3 = Color3.fromRGB(135, 12, 156)
-	TextLabel_2.TextScaled = true
-	TextLabel_2.TextSize = 14.000
-	TextLabel_2.TextWrapped = true
-
-	chatspy.Name = "chat spy"
-	chatspy.Parent = main
-	chatspy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	chatspy.Position = UDim2.new(0.506998062, 0, 0.492405683, 0)
-	chatspy.Size = UDim2.new(0, 62, 0, 62)
-	chatspy.Font = Enum.Font.SourceSans
-	chatspy.Text = ""
-	chatspy.TextColor3 = Color3.fromRGB(0, 0, 0)
-	chatspy.TextSize = 14.000
-
-	UICorner_9.Parent = chatspy
-
-	chatspybutton.Name = "chat spy button"
-	chatspybutton.Parent = chatspy
-	chatspybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	chatspybutton.BackgroundTransparency = 1.000
-	chatspybutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	chatspybutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
-	chatspybutton.Size = UDim2.new(0, 105, 0, 22)
-	chatspybutton.Font = Enum.Font.GothamBlack
-	chatspybutton.Text = "chat spy"
-	chatspybutton.TextColor3 = Color3.fromRGB(255, 255, 255)
-	chatspybutton.TextSize = 15.000
-	chatspybutton.TextWrapped = true
-
-	UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_6.Rotation = 120
-	UIGradient_6.Parent = chatspy
-
-	Teleports.Name = "Teleports"
-	Teleports.Parent = main
-	Teleports.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-	Teleports.Position = UDim2.new(0.0551848225, 0, 0.447762817, 0)
-	Teleports.Size = UDim2.new(0, 360, 0, 159)
-	Teleports.Visible = false
-
-	UICorner_10.Parent = Teleports
-
-	DropShadow_2.Name = "DropShadow"
-	DropShadow_2.Parent = Teleports
-	DropShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
-	DropShadow_2.BackgroundTransparency = 1.000
-	DropShadow_2.BorderSizePixel = 0
-	DropShadow_2.Position = UDim2.new(0.500801682, 0, 0.499181896, 0)
-	DropShadow_2.Size = UDim2.new(1.02566814, 47, 1.06080103, 47)
-	DropShadow_2.ZIndex = 0
-	DropShadow_2.Image = "rbxassetid://6014261993"
-	DropShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
-	DropShadow_2.ImageTransparency = 0.500
-	DropShadow_2.ScaleType = Enum.ScaleType.Slice
-	DropShadow_2.SliceCenter = Rect.new(49, 49, 450, 450)
-
-	gym.Name = "gym"
-	gym.Parent = Teleports
-	gym.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	gym.Position = UDim2.new(0.0430620611, 0, 0.0976220295, 0)
-	gym.Size = UDim2.new(0, 62, 0, 62)
-	gym.Font = Enum.Font.SourceSans
-	gym.Text = ""
-	gym.TextColor3 = Color3.fromRGB(0, 0, 0)
-	gym.TextSize = 14.000
-
-	UICorner_11.Parent = gym
-
-	TextLabel_3.Parent = gym
-	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_3.BackgroundTransparency = 1.000
-	TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_3.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_3.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_3.Font = Enum.Font.GothamBlack
-	TextLabel_3.Text = "Gym"
-	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_3.TextScaled = true
-	TextLabel_3.TextSize = 14.000
-	TextLabel_3.TextWrapped = true
-
-	UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_7.Rotation = 120
-	UIGradient_7.Parent = gym
-
-	UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
-	UIGradient_8.Rotation = 120
-	UIGradient_8.Parent = Teleports
-
-	bank.Name = "bank"
-	bank.Parent = Teleports
-	bank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	bank.Position = UDim2.new(0.273617625, 0, 0.0877210423, 0)
-	bank.Size = UDim2.new(0, 62, 0, 62)
-	bank.Font = Enum.Font.SourceSans
-	bank.Text = ""
-	bank.TextColor3 = Color3.fromRGB(0, 0, 0)
-	bank.TextSize = 14.000
-
-	UICorner_12.Parent = bank
-
-	TextLabel_4.Parent = bank
-	TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_4.BackgroundTransparency = 1.000
-	TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_4.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_4.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_4.Font = Enum.Font.GothamBlack
-	TextLabel_4.Text = "Bank"
-	TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_4.TextScaled = true
-	TextLabel_4.TextSize = 14.000
-	TextLabel_4.TextWrapped = true
-
-	UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_9.Rotation = 120
-	UIGradient_9.Parent = bank
-
-	casino.Name = "casino"
-	casino.Parent = Teleports
-	casino.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	casino.Position = UDim2.new(0.50417316, 0, 0.0976220295, 0)
-	casino.Size = UDim2.new(0, 62, 0, 62)
-	casino.Font = Enum.Font.SourceSans
-	casino.Text = ""
-	casino.TextColor3 = Color3.fromRGB(0, 0, 0)
-	casino.TextSize = 14.000
-
-	UICorner_13.Parent = casino
-
-	TextLabel_5.Parent = casino
-	TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_5.BackgroundTransparency = 1.000
-	TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_5.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_5.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_5.Font = Enum.Font.GothamBlack
-	TextLabel_5.Text = "Casino"
-	TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_5.TextScaled = true
-	TextLabel_5.TextSize = 14.000
-	TextLabel_5.TextWrapped = true
-
-	UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_10.Rotation = 120
-	UIGradient_10.Parent = casino
-
-	bridge.Name = "bridge"
-	bridge.Parent = Teleports
-	bridge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	bridge.Position = UDim2.new(0.740284264, 0, 0.0976220295, 0)
-	bridge.Size = UDim2.new(0, 62, 0, 62)
-	bridge.Font = Enum.Font.SourceSans
-	bridge.Text = ""
-	bridge.TextColor3 = Color3.fromRGB(0, 0, 0)
-	bridge.TextSize = 14.000
-
-	UICorner_14.Parent = bridge
-
-	TextLabel_6.Parent = bridge
-	TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_6.BackgroundTransparency = 1.000
-	TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_6.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_6.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_6.Font = Enum.Font.GothamBlack
-	TextLabel_6.Text = "Bridge"
-	TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_6.TextScaled = true
-	TextLabel_6.TextSize = 14.000
-	TextLabel_6.TextWrapped = true
-
-	UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_11.Rotation = 120
-	UIGradient_11.Parent = bridge
-
-	mask_2.Name = "mask"
-	mask_2.Parent = Teleports
-	mask_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	mask_2.Position = UDim2.new(0.740284264, 0, 0.571181893, 0)
-	mask_2.Size = UDim2.new(0, 62, 0, 62)
-	mask_2.Font = Enum.Font.SourceSans
-	mask_2.Text = ""
-	mask_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-	mask_2.TextSize = 14.000
-
-	UICorner_15.Parent = mask_2
-
-	TextLabel_7.Parent = mask_2
-	TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_7.BackgroundTransparency = 1.000
-	TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_7.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_7.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_7.Font = Enum.Font.GothamBlack
-	TextLabel_7.Text = "Mask"
-	TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_7.TextScaled = true
-	TextLabel_7.TextSize = 14.000
-	TextLabel_7.TextWrapped = true
-
-	UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_12.Rotation = 120
-	UIGradient_12.Parent = mask_2
-
-	smg.Name = "smg"
-	smg.Parent = Teleports
-	smg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	smg.Position = UDim2.new(0.50417316, 0, 0.571181893, 0)
-	smg.Size = UDim2.new(0, 62, 0, 62)
-	smg.Font = Enum.Font.SourceSans
-	smg.Text = ""
-	smg.TextColor3 = Color3.fromRGB(0, 0, 0)
-	smg.TextSize = 14.000
-
-	UICorner_16.Parent = smg
-
-	TextLabel_8.Parent = smg
-	TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_8.BackgroundTransparency = 1.000
-	TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_8.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_8.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_8.Font = Enum.Font.GothamBlack
-	TextLabel_8.Text = "Smg"
-	TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_8.TextScaled = true
-	TextLabel_8.TextSize = 14.000
-	TextLabel_8.TextWrapped = true
-
-	UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_13.Rotation = 120
-	UIGradient_13.Parent = smg
-
-	doublebarrel.Name = "double barrel"
-	doublebarrel.Parent = Teleports
-	doublebarrel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	doublebarrel.Position = UDim2.new(0.273617625, 0, 0.561280906, 0)
-	doublebarrel.Size = UDim2.new(0, 62, 0, 62)
-	doublebarrel.Font = Enum.Font.SourceSans
-	doublebarrel.Text = ""
-	doublebarrel.TextColor3 = Color3.fromRGB(0, 0, 0)
-	doublebarrel.TextSize = 14.000
-
-	UICorner_17.Parent = doublebarrel
-
-	TextLabel_9.Parent = doublebarrel
-	TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_9.BackgroundTransparency = 1.000
-	TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_9.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_9.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_9.Font = Enum.Font.GothamBlack
-	TextLabel_9.Text = "DB"
-	TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_9.TextScaled = true
-	TextLabel_9.TextSize = 14.000
-	TextLabel_9.TextWrapped = true
-
-	UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_14.Rotation = 120
-	UIGradient_14.Parent = doublebarrel
-
-	revolver.Name = "revolver"
-	revolver.Parent = Teleports
-	revolver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	revolver.Position = UDim2.new(0.0430620611, 0, 0.571181893, 0)
-	revolver.Size = UDim2.new(0, 62, 0, 62)
-	revolver.Font = Enum.Font.SourceSans
-	revolver.Text = ""
-	revolver.TextColor3 = Color3.fromRGB(0, 0, 0)
-	revolver.TextSize = 14.000
-
-	UICorner_18.Parent = revolver
-
-	TextLabel_10.Parent = revolver
-	TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_10.BackgroundTransparency = 1.000
-	TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_10.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_10.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_10.Font = Enum.Font.GothamBlack
-	TextLabel_10.Text = "Rev"
-	TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_10.TextScaled = true
-	TextLabel_10.TextSize = 14.000
-	TextLabel_10.TextWrapped = true
-
-	UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_15.Rotation = 120
-	UIGradient_15.Parent = revolver
-
-	tele.Name = "tele"
-	tele.Parent = main
-	tele.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	tele.Position = UDim2.new(0.0808771551, 0, 0.327380955, 0)
-	tele.Size = UDim2.new(0, 100, 0, 34)
-	tele.Font = Enum.Font.SourceSans
-	tele.Text = ""
-	tele.TextColor3 = Color3.fromRGB(0, 0, 0)
-	tele.TextSize = 14.000
-
-	UICorner_19.Parent = tele
-
-	UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_16.Rotation = 120
-	UIGradient_16.Parent = tele
-
-	TextLabel_11.Parent = tele
-	TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_11.BackgroundTransparency = 1.000
-	TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_11.Position = UDim2.new(-0.0025806427, 0, 0.165199235, 0)
-	TextLabel_11.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_11.Font = Enum.Font.GothamBlack
-	TextLabel_11.Text = "Teleports"
-	TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_11.TextSize = 15.000
-	TextLabel_11.TextWrapped = true
-
-	DecorLine.Name = "DecorLine"
-	DecorLine.Parent = main
-	DecorLine.BackgroundColor3 = Color3.fromRGB(134, 62, 170)
-	DecorLine.BorderSizePixel = 0
-	DecorLine.Size = UDim2.new(0, 405, 0, 8)
-
-	UICorner_20.Parent = DecorLine
-
-	UICorner_21.Parent = main
-
-	UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
-	UIGradient_17.Rotation = 120
-	UIGradient_17.Parent = main
-
-	auto.Name = "auto"
-	auto.Parent = main
-	auto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	auto.Position = UDim2.new(0.401864797, 0, 0.324404776, 0)
-	auto.Size = UDim2.new(0, 100, 0, 34)
-	auto.Font = Enum.Font.SourceSans
-	auto.Text = ""
-	auto.TextColor3 = Color3.fromRGB(0, 0, 0)
-	auto.TextSize = 14.000
-
-	UICorner_22.Parent = auto
-
-	UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_18.Rotation = 120
-	UIGradient_18.Parent = auto
-
-	TextLabel_12.Parent = auto
-	TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_12.BackgroundTransparency = 1.000
-	TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_12.Position = UDim2.new(-0.0025806427, 0, 0.165199235, 0)
-	TextLabel_12.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_12.Font = Enum.Font.GothamBlack
-	TextLabel_12.Text = "Buy"
-	TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_12.TextSize = 15.000
-	TextLabel_12.TextWrapped = true
-
-	autobuy.Name = "autobuy"
-	autobuy.Parent = main
-	autobuy.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-	autobuy.Position = UDim2.new(0.0551848225, 0, 0.447762817, 0)
-	autobuy.Size = UDim2.new(0, 360, 0, 159)
-	autobuy.Visible = false
-
-	UICorner_23.Parent = autobuy
-
-	DropShadow_3.Name = "DropShadow"
-	DropShadow_3.Parent = autobuy
-	DropShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
-	DropShadow_3.BackgroundTransparency = 1.000
-	DropShadow_3.BorderSizePixel = 0
-	DropShadow_3.Position = UDim2.new(0.500801682, 0, 0.499181896, 0)
-	DropShadow_3.Size = UDim2.new(1.02566814, 47, 1.06080103, 47)
-	DropShadow_3.ZIndex = 0
-	DropShadow_3.Image = "rbxassetid://6014261993"
-	DropShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
-	DropShadow_3.ImageTransparency = 0.500
-	DropShadow_3.ScaleType = Enum.ScaleType.Slice
-	DropShadow_3.SliceCenter = Rect.new(49, 49, 450, 450)
-
-	UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
-	UIGradient_19.Rotation = 120
-	UIGradient_19.Parent = autobuy
-
-	rpg.Name = "rpg"
-	rpg.Parent = autobuy
-	rpg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	rpg.Position = UDim2.new(0.273617625, 0, 0.0877210423, 0)
-	rpg.Size = UDim2.new(0, 62, 0, 62)
-	rpg.Font = Enum.Font.SourceSans
-	rpg.Text = ""
-	rpg.TextColor3 = Color3.fromRGB(0, 0, 0)
-	rpg.TextSize = 14.000
-
-	UICorner_24.Parent = rpg
-
-	UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_20.Rotation = 120
-	UIGradient_20.Parent = rpg
-
-	TextLabel_13.Parent = rpg
-	TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_13.BackgroundTransparency = 1.000
-	TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_13.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_13.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_13.Font = Enum.Font.GothamBlack
-	TextLabel_13.Text = "rpg"
-	TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_13.TextScaled = true
-	TextLabel_13.TextSize = 14.000
-	TextLabel_13.TextWrapped = true
-
-	armor.Name = "armor"
-	armor.Parent = autobuy
-	armor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	armor.Position = UDim2.new(0.740284264, 0, 0.0976220295, 0)
-	armor.Size = UDim2.new(0, 62, 0, 62)
-	armor.Font = Enum.Font.SourceSans
-	armor.Text = ""
-	armor.TextColor3 = Color3.fromRGB(0, 0, 0)
-	armor.TextSize = 14.000
-
-	UICorner_25.Parent = armor
-
-	TextLabel_14.Parent = armor
-	TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_14.BackgroundTransparency = 1.000
-	TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_14.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_14.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_14.Font = Enum.Font.GothamBlack
-	TextLabel_14.Text = "armor"
-	TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_14.TextScaled = true
-	TextLabel_14.TextSize = 14.000
-	TextLabel_14.TextWrapped = true
-
-	UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_21.Rotation = 120
-	UIGradient_21.Parent = armor
-
-	dualsmg.Name = "dual smg"
-	dualsmg.Parent = autobuy
-	dualsmg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	dualsmg.Position = UDim2.new(0.50417316, 0, 0.0976220295, 0)
-	dualsmg.Size = UDim2.new(0, 62, 0, 62)
-	dualsmg.Font = Enum.Font.SourceSans
-	dualsmg.Text = ""
-	dualsmg.TextColor3 = Color3.fromRGB(0, 0, 0)
-	dualsmg.TextSize = 14.000
-
-	UICorner_26.Parent = dualsmg
-
-	TextLabel_15.Parent = dualsmg
-	TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_15.BackgroundTransparency = 1.000
-	TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_15.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_15.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_15.Font = Enum.Font.GothamBlack
-	TextLabel_15.Text = "dual smg"
-	TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_15.TextScaled = true
-	TextLabel_15.TextSize = 14.000
-	TextLabel_15.TextWrapped = true
-
-	UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_22.Rotation = 120
-	UIGradient_22.Parent = dualsmg
-
-	db.Name = "db"
-	db.Parent = autobuy
-	db.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	db.Position = UDim2.new(0.273617625, 0, 0.561280906, 0)
-	db.Size = UDim2.new(0, 62, 0, 62)
-	db.Font = Enum.Font.SourceSans
-	db.Text = ""
-	db.TextColor3 = Color3.fromRGB(0, 0, 0)
-	db.TextSize = 14.000
-
-	UICorner_27.Parent = db
-
-	TextLabel_16.Parent = db
-	TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_16.BackgroundTransparency = 1.000
-	TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_16.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_16.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_16.Font = Enum.Font.GothamBlack
-	TextLabel_16.Text = "DB"
-	TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_16.TextScaled = true
-	TextLabel_16.TextSize = 14.000
-	TextLabel_16.TextWrapped = true
-
-	UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_23.Rotation = 120
-	UIGradient_23.Parent = db
-
-	dualrev.Name = "dual rev"
-	dualrev.Parent = autobuy
-	dualrev.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	dualrev.Position = UDim2.new(0.0430620611, 0, 0.0976220295, 0)
-	dualrev.Size = UDim2.new(0, 62, 0, 62)
-	dualrev.Font = Enum.Font.SourceSans
-	dualrev.Text = ""
-	dualrev.TextColor3 = Color3.fromRGB(0, 0, 0)
-	dualrev.TextSize = 14.000
-
-	UICorner_28.Parent = dualrev
-
-	TextLabel_17.Parent = dualrev
-	TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_17.BackgroundTransparency = 1.000
-	TextLabel_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_17.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_17.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_17.Font = Enum.Font.GothamBlack
-	TextLabel_17.Text = "dual rev"
-	TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_17.TextScaled = true
-	TextLabel_17.TextSize = 14.000
-	TextLabel_17.TextWrapped = true
-
-	UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_24.Rotation = 120
-	UIGradient_24.Parent = dualrev
-
-	mask_3.Name = "mask"
-	mask_3.Parent = autobuy
-	mask_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	mask_3.Position = UDim2.new(0.740284264, 0, 0.571181893, 0)
-	mask_3.Size = UDim2.new(0, 62, 0, 62)
-	mask_3.Font = Enum.Font.SourceSans
-	mask_3.Text = ""
-	mask_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-	mask_3.TextSize = 14.000
-
-	UICorner_29.Parent = mask_3
-
-	TextLabel_18.Parent = mask_3
-	TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_18.BackgroundTransparency = 1.000
-	TextLabel_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_18.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_18.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_18.Font = Enum.Font.GothamBlack
-	TextLabel_18.Text = "Mask"
-	TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_18.TextScaled = true
-	TextLabel_18.TextSize = 14.000
-	TextLabel_18.TextWrapped = true
-
-	UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_25.Rotation = 120
-	UIGradient_25.Parent = mask_3
-
-	revolver_2.Name = "revolver"
-	revolver_2.Parent = autobuy
-	revolver_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	revolver_2.Position = UDim2.new(0.0430620611, 0, 0.571181893, 0)
-	revolver_2.Size = UDim2.new(0, 62, 0, 62)
-	revolver_2.Font = Enum.Font.SourceSans
-	revolver_2.Text = ""
-	revolver_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-	revolver_2.TextSize = 14.000
-
-	UICorner_30.Parent = revolver_2
-
-	TextLabel_19.Parent = revolver_2
-	TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_19.BackgroundTransparency = 1.000
-	TextLabel_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_19.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_19.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_19.Font = Enum.Font.GothamBlack
-	TextLabel_19.Text = "Rev"
-	TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_19.TextScaled = true
-	TextLabel_19.TextSize = 14.000
-	TextLabel_19.TextWrapped = true
-
-	UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_26.Rotation = 120
-	UIGradient_26.Parent = revolver_2
-
-	smg_2.Name = "smg"
-	smg_2.Parent = autobuy
-	smg_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	smg_2.Position = UDim2.new(0.50417316, 0, 0.571181893, 0)
-	smg_2.Size = UDim2.new(0, 62, 0, 62)
-	smg_2.Font = Enum.Font.SourceSans
-	smg_2.Text = ""
-	smg_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-	smg_2.TextSize = 14.000
-
-	UICorner_31.Parent = smg_2
-
-	TextLabel_20.Parent = smg_2
-	TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_20.BackgroundTransparency = 1.000
-	TextLabel_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	TextLabel_20.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
-	TextLabel_20.Size = UDim2.new(0, 105, 0, 22)
-	TextLabel_20.Font = Enum.Font.GothamBlack
-	TextLabel_20.Text = "Smg"
-	TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_20.TextScaled = true
-	TextLabel_20.TextSize = 14.000
-	TextLabel_20.TextWrapped = true
-
-	UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
-	UIGradient_27.Rotation = 120
-	UIGradient_27.Parent = smg_2
-
-	-- Scripts:
-
-	local function FRXYP_fake_script() -- Username.LocalScript 
-		local script = Instance.new('LocalScript', Username)
-
-		script.Parent.Text = "@" .. game.Players.LocalPlayer.Name;
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local anarchy = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local profile = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Username = Instance.new("TextLabel")
+local AvatarImage = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local skids = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local headuwu = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local DropShadow = Instance.new("ImageLabel")
+local mask = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local maskbutton = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local infyield = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local infyieldbutton = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local gravitygun = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local gravitybutton = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local lock = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local lockbutton = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local chatspy = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local chatspybutton = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local Teleports = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local DropShadow_2 = Instance.new("ImageLabel")
+local gym = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local UIGradient_8 = Instance.new("UIGradient")
+local bank = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local casino = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
+local bridge = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_11 = Instance.new("UIGradient")
+local mask_2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIGradient_12 = Instance.new("UIGradient")
+local smg = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local UIGradient_13 = Instance.new("UIGradient")
+local doublebarrel = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local UIGradient_14 = Instance.new("UIGradient")
+local revolver = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local UIGradient_15 = Instance.new("UIGradient")
+local tele = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local TextLabel_11 = Instance.new("TextLabel")
+local DecorLine = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local UIGradient_17 = Instance.new("UIGradient")
+local auto = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UIGradient_18 = Instance.new("UIGradient")
+local TextLabel_12 = Instance.new("TextLabel")
+local autobuy = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local DropShadow_3 = Instance.new("ImageLabel")
+local UIGradient_19 = Instance.new("UIGradient")
+local rpg = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local UIGradient_20 = Instance.new("UIGradient")
+local TextLabel_13 = Instance.new("TextLabel")
+local armor = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local UIGradient_21 = Instance.new("UIGradient")
+local dualsmg = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local UIGradient_22 = Instance.new("UIGradient")
+local db = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local UIGradient_23 = Instance.new("UIGradient")
+local dualrev = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_17 = Instance.new("TextLabel")
+local UIGradient_24 = Instance.new("UIGradient")
+local mask_3 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
+local UIGradient_25 = Instance.new("UIGradient")
+local revolver_2 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
+local UIGradient_26 = Instance.new("UIGradient")
+local smg_2 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_20 = Instance.new("TextLabel")
+local UIGradient_27 = Instance.new("UIGradient")
+local autoarmor = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local autobuyarmor = Instance.new("TextLabel")
+local UIGradient_28 = Instance.new("UIGradient")
+
+--Properties:
+
+anarchy.Name = "anarchy"
+anarchy.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = anarchy
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+main.Position = UDim2.new(0.686522722, 0, 0.0499410778, 0)
+main.Size = UDim2.new(0, 405, 0, 336)
+
+profile.Name = "profile"
+profile.Parent = main
+profile.Active = true
+profile.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+profile.BorderColor3 = Color3.fromRGB(27, 42, 53)
+profile.Position = UDim2.new(0.0779765919, 0, 0.109608009, 0)
+profile.Size = UDim2.new(0, 192, 0, 64)
+
+UICorner.CornerRadius = UDim.new(0, 7)
+UICorner.Parent = profile
+
+Username.Name = "Username"
+Username.Parent = profile
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.Position = UDim2.new(0.303749979, 0, 0.484625012, -2)
+Username.Size = UDim2.new(0, 126, 0, 33)
+Username.Font = Enum.Font.Gotham
+Username.Text = ""
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextSize = 22.000
+Username.TextWrapped = true
+Username.TextXAlignment = Enum.TextXAlignment.Left
+
+AvatarImage.Name = "AvatarImage"
+AvatarImage.Parent = profile
+AvatarImage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AvatarImage.Position = UDim2.new(0.0365297012, 0, 0.140421867, 0)
+AvatarImage.Size = UDim2.new(0, 45, 0, 46)
+AvatarImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_2.CornerRadius = UDim.new(0, 50)
+UICorner_2.Parent = AvatarImage
+
+TextLabel.Parent = profile
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.268818855, 0, -4.76837158e-07, 0)
+TextLabel.Size = UDim2.new(0, 95, 0, 30)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Welcome"
+TextLabel.TextColor3 = Color3.fromRGB(135, 12, 156)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(195, 111, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(195, 111, 255))}
+UIGradient.Rotation = 120
+UIGradient.Parent = profile
+
+skids.Name = "skids"
+skids.Parent = main
+skids.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skids.BackgroundTransparency = 1.000
+skids.Position = UDim2.new(1.53166866, 0, 0.119520739, 0)
+skids.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_3.Parent = skids
+
+headuwu.Name = "headuwu"
+headuwu.Parent = skids
+headuwu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+headuwu.BackgroundTransparency = 1.000
+headuwu.Position = UDim2.new(-3.26701736, 0, -0.209865764, 0)
+headuwu.Size = UDim2.new(0, 100, 0, 100)
+headuwu.Image = "rbxthumb://type=AvatarHeadShot&id=392728842&w=420&h=420"
+
+UICorner_4.Parent = headuwu
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = main
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.499751359, 0, 0.501215041, 0)
+DropShadow.Size = UDim2.new(1.02356732, 47, 1.02730846, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+mask.Name = "mask"
+mask.Parent = main
+mask.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mask.Position = UDim2.new(0.0907537341, 0, 0.489429504, 0)
+mask.Size = UDim2.new(0, 62, 0, 62)
+mask.Font = Enum.Font.SourceSans
+mask.Text = ""
+mask.TextColor3 = Color3.fromRGB(0, 0, 0)
+mask.TextSize = 14.000
+
+UICorner_5.Parent = mask
+
+maskbutton.Name = "mask button"
+maskbutton.Parent = mask
+maskbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+maskbutton.BackgroundTransparency = 1.000
+maskbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+maskbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+maskbutton.Size = UDim2.new(0, 105, 0, 22)
+maskbutton.Font = Enum.Font.GothamBlack
+maskbutton.Text = "remove mask"
+maskbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+maskbutton.TextSize = 9.000
+maskbutton.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_2.Rotation = 120
+UIGradient_2.Parent = mask
+
+infyield.Name = "inf yield"
+infyield.Parent = main
+infyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infyield.Position = UDim2.new(0.0889993384, 0, 0.7133829, 0)
+infyield.Size = UDim2.new(0, 62, 0, 62)
+infyield.Font = Enum.Font.SourceSans
+infyield.Text = ""
+infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infyield.TextSize = 14.000
+
+UICorner_6.Parent = infyield
+
+infyieldbutton.Name = "inf yield button"
+infyieldbutton.Parent = infyield
+infyieldbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infyieldbutton.BackgroundTransparency = 1.000
+infyieldbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+infyieldbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+infyieldbutton.Size = UDim2.new(0, 105, 0, 22)
+infyieldbutton.Font = Enum.Font.GothamBlack
+infyieldbutton.Text = "INF YIELD"
+infyieldbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+infyieldbutton.TextSize = 9.000
+infyieldbutton.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_3.Rotation = 120
+UIGradient_3.Parent = infyield
+
+gravitygun.Name = "gravity gun"
+gravitygun.Parent = main
+gravitygun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gravitygun.Position = UDim2.new(0.297121525, 0, 0.489429504, 0)
+gravitygun.Size = UDim2.new(0, 62, 0, 62)
+gravitygun.Font = Enum.Font.SourceSans
+gravitygun.Text = ""
+gravitygun.TextColor3 = Color3.fromRGB(0, 0, 0)
+gravitygun.TextSize = 14.000
+
+UICorner_7.Parent = gravitygun
+
+gravitybutton.Name = "gravity button"
+gravitybutton.Parent = gravitygun
+gravitybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gravitybutton.BackgroundTransparency = 1.000
+gravitybutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+gravitybutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+gravitybutton.Size = UDim2.new(0, 105, 0, 22)
+gravitybutton.Font = Enum.Font.GothamBlack
+gravitybutton.Text = "gravity gun"
+gravitybutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+gravitybutton.TextSize = 9.000
+gravitybutton.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_4.Rotation = 120
+UIGradient_4.Parent = gravitygun
+
+lock.Name = "lock"
+lock.Parent = main
+lock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lock.Position = UDim2.new(0.297121525, 0, 0.71859622, 0)
+lock.Size = UDim2.new(0, 62, 0, 62)
+lock.Font = Enum.Font.SourceSans
+lock.Text = ""
+lock.TextColor3 = Color3.fromRGB(0, 0, 0)
+lock.TextSize = 14.000
+
+UICorner_8.Parent = lock
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_5.Rotation = 120
+UIGradient_5.Parent = lock
+
+lockbutton.Name = "lockbutton"
+lockbutton.Parent = lock
+lockbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lockbutton.BackgroundTransparency = 1.000
+lockbutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+lockbutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+lockbutton.Size = UDim2.new(0, 105, 0, 22)
+lockbutton.Font = Enum.Font.GothamBlack
+lockbutton.Text = "lock"
+lockbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+lockbutton.TextScaled = true
+lockbutton.TextSize = 9.000
+lockbutton.TextWrapped = true
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0660061836, 0, 0.0191459879, 0)
+TextLabel_2.Size = UDim2.new(0, 201, 0, 30)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "hood Anarchy"
+TextLabel_2.TextColor3 = Color3.fromRGB(135, 12, 156)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+chatspy.Name = "chat spy"
+chatspy.Parent = main
+chatspy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+chatspy.Position = UDim2.new(0.506998062, 0, 0.492405683, 0)
+chatspy.Size = UDim2.new(0, 62, 0, 62)
+chatspy.Font = Enum.Font.SourceSans
+chatspy.Text = ""
+chatspy.TextColor3 = Color3.fromRGB(0, 0, 0)
+chatspy.TextSize = 14.000
+
+UICorner_9.Parent = chatspy
+
+chatspybutton.Name = "chat spy button"
+chatspybutton.Parent = chatspy
+chatspybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+chatspybutton.BackgroundTransparency = 1.000
+chatspybutton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+chatspybutton.Position = UDim2.new(-0.322580636, 0, 0.312258065, 0)
+chatspybutton.Size = UDim2.new(0, 105, 0, 22)
+chatspybutton.Font = Enum.Font.GothamBlack
+chatspybutton.Text = "chat spy"
+chatspybutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+chatspybutton.TextSize = 15.000
+chatspybutton.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_6.Rotation = 120
+UIGradient_6.Parent = chatspy
+
+Teleports.Name = "Teleports"
+Teleports.Parent = main
+Teleports.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Teleports.Position = UDim2.new(0.0551848225, 0, 0.447762817, 0)
+Teleports.Size = UDim2.new(0, 360, 0, 159)
+Teleports.Visible = false
+
+UICorner_10.Parent = Teleports
+
+DropShadow_2.Name = "DropShadow"
+DropShadow_2.Parent = Teleports
+DropShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_2.BackgroundTransparency = 1.000
+DropShadow_2.BorderSizePixel = 0
+DropShadow_2.Position = UDim2.new(0.500801682, 0, 0.499181896, 0)
+DropShadow_2.Size = UDim2.new(1.02566814, 47, 1.06080103, 47)
+DropShadow_2.ZIndex = 0
+DropShadow_2.Image = "rbxassetid://6014261993"
+DropShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_2.ImageTransparency = 0.500
+DropShadow_2.ScaleType = Enum.ScaleType.Slice
+DropShadow_2.SliceCenter = Rect.new(49, 49, 450, 450)
+
+gym.Name = "gym"
+gym.Parent = Teleports
+gym.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gym.Position = UDim2.new(0.0430620611, 0, 0.0976220295, 0)
+gym.Size = UDim2.new(0, 62, 0, 62)
+gym.Font = Enum.Font.SourceSans
+gym.Text = ""
+gym.TextColor3 = Color3.fromRGB(0, 0, 0)
+gym.TextSize = 14.000
+
+UICorner_11.Parent = gym
+
+TextLabel_3.Parent = gym
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_3.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "Gym"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_7.Rotation = 120
+UIGradient_7.Parent = gym
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
+UIGradient_8.Rotation = 120
+UIGradient_8.Parent = Teleports
+
+bank.Name = "bank"
+bank.Parent = Teleports
+bank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bank.Position = UDim2.new(0.273617625, 0, 0.0877210423, 0)
+bank.Size = UDim2.new(0, 62, 0, 62)
+bank.Font = Enum.Font.SourceSans
+bank.Text = ""
+bank.TextColor3 = Color3.fromRGB(0, 0, 0)
+bank.TextSize = 14.000
+
+UICorner_12.Parent = bank
+
+TextLabel_4.Parent = bank
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_4.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_4.Font = Enum.Font.GothamBlack
+TextLabel_4.Text = "Bank"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_9.Rotation = 120
+UIGradient_9.Parent = bank
+
+casino.Name = "casino"
+casino.Parent = Teleports
+casino.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+casino.Position = UDim2.new(0.50417316, 0, 0.0976220295, 0)
+casino.Size = UDim2.new(0, 62, 0, 62)
+casino.Font = Enum.Font.SourceSans
+casino.Text = ""
+casino.TextColor3 = Color3.fromRGB(0, 0, 0)
+casino.TextSize = 14.000
+
+UICorner_13.Parent = casino
+
+TextLabel_5.Parent = casino
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_5.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_5.Font = Enum.Font.GothamBlack
+TextLabel_5.Text = "Casino"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_10.Rotation = 120
+UIGradient_10.Parent = casino
+
+bridge.Name = "bridge"
+bridge.Parent = Teleports
+bridge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bridge.Position = UDim2.new(0.740284264, 0, 0.0976220295, 0)
+bridge.Size = UDim2.new(0, 62, 0, 62)
+bridge.Font = Enum.Font.SourceSans
+bridge.Text = ""
+bridge.TextColor3 = Color3.fromRGB(0, 0, 0)
+bridge.TextSize = 14.000
+
+UICorner_14.Parent = bridge
+
+TextLabel_6.Parent = bridge
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_6.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_6.Font = Enum.Font.GothamBlack
+TextLabel_6.Text = "Bridge"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_11.Rotation = 120
+UIGradient_11.Parent = bridge
+
+mask_2.Name = "mask"
+mask_2.Parent = Teleports
+mask_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mask_2.Position = UDim2.new(0.740284264, 0, 0.571181893, 0)
+mask_2.Size = UDim2.new(0, 62, 0, 62)
+mask_2.Font = Enum.Font.SourceSans
+mask_2.Text = ""
+mask_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+mask_2.TextSize = 14.000
+
+UICorner_15.Parent = mask_2
+
+TextLabel_7.Parent = mask_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_7.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_7.Font = Enum.Font.GothamBlack
+TextLabel_7.Text = "Mask"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_12.Rotation = 120
+UIGradient_12.Parent = mask_2
+
+smg.Name = "smg"
+smg.Parent = Teleports
+smg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+smg.Position = UDim2.new(0.50417316, 0, 0.571181893, 0)
+smg.Size = UDim2.new(0, 62, 0, 62)
+smg.Font = Enum.Font.SourceSans
+smg.Text = ""
+smg.TextColor3 = Color3.fromRGB(0, 0, 0)
+smg.TextSize = 14.000
+
+UICorner_16.Parent = smg
+
+TextLabel_8.Parent = smg
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_8.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_8.Font = Enum.Font.GothamBlack
+TextLabel_8.Text = "Smg"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_13.Rotation = 120
+UIGradient_13.Parent = smg
+
+doublebarrel.Name = "double barrel"
+doublebarrel.Parent = Teleports
+doublebarrel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+doublebarrel.Position = UDim2.new(0.273617625, 0, 0.561280906, 0)
+doublebarrel.Size = UDim2.new(0, 62, 0, 62)
+doublebarrel.Font = Enum.Font.SourceSans
+doublebarrel.Text = ""
+doublebarrel.TextColor3 = Color3.fromRGB(0, 0, 0)
+doublebarrel.TextSize = 14.000
+
+UICorner_17.Parent = doublebarrel
+
+TextLabel_9.Parent = doublebarrel
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_9.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_9.Font = Enum.Font.GothamBlack
+TextLabel_9.Text = "DB"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_14.Rotation = 120
+UIGradient_14.Parent = doublebarrel
+
+revolver.Name = "revolver"
+revolver.Parent = Teleports
+revolver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+revolver.Position = UDim2.new(0.0430620611, 0, 0.571181893, 0)
+revolver.Size = UDim2.new(0, 62, 0, 62)
+revolver.Font = Enum.Font.SourceSans
+revolver.Text = ""
+revolver.TextColor3 = Color3.fromRGB(0, 0, 0)
+revolver.TextSize = 14.000
+
+UICorner_18.Parent = revolver
+
+TextLabel_10.Parent = revolver
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_10.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_10.Font = Enum.Font.GothamBlack
+TextLabel_10.Text = "Rev"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_15.Rotation = 120
+UIGradient_15.Parent = revolver
+
+tele.Name = "tele"
+tele.Parent = main
+tele.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tele.Position = UDim2.new(0.0808771551, 0, 0.327380955, 0)
+tele.Size = UDim2.new(0, 100, 0, 34)
+tele.Font = Enum.Font.SourceSans
+tele.Text = ""
+tele.TextColor3 = Color3.fromRGB(0, 0, 0)
+tele.TextSize = 14.000
+
+UICorner_19.Parent = tele
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_16.Rotation = 120
+UIGradient_16.Parent = tele
+
+TextLabel_11.Parent = tele
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.Position = UDim2.new(-0.0025806427, 0, 0.165199235, 0)
+TextLabel_11.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_11.Font = Enum.Font.GothamBlack
+TextLabel_11.Text = "Teleports"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 15.000
+TextLabel_11.TextWrapped = true
+
+DecorLine.Name = "DecorLine"
+DecorLine.Parent = main
+DecorLine.BackgroundColor3 = Color3.fromRGB(134, 62, 170)
+DecorLine.BorderSizePixel = 0
+DecorLine.Size = UDim2.new(0, 405, 0, 8)
+
+UICorner_20.Parent = DecorLine
+
+UICorner_21.Parent = main
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
+UIGradient_17.Rotation = 120
+UIGradient_17.Parent = main
+
+auto.Name = "auto"
+auto.Parent = main
+auto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+auto.Position = UDim2.new(0.401864797, 0, 0.324404776, 0)
+auto.Size = UDim2.new(0, 100, 0, 34)
+auto.Font = Enum.Font.SourceSans
+auto.Text = ""
+auto.TextColor3 = Color3.fromRGB(0, 0, 0)
+auto.TextSize = 14.000
+
+UICorner_22.Parent = auto
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_18.Rotation = 120
+UIGradient_18.Parent = auto
+
+TextLabel_12.Parent = auto
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_12.Position = UDim2.new(-0.0025806427, 0, 0.165199235, 0)
+TextLabel_12.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_12.Font = Enum.Font.GothamBlack
+TextLabel_12.Text = "Buy"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 15.000
+TextLabel_12.TextWrapped = true
+
+autobuy.Name = "autobuy"
+autobuy.Parent = main
+autobuy.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+autobuy.Position = UDim2.new(0.0551848225, 0, 0.447762817, 0)
+autobuy.Size = UDim2.new(0, 360, 0, 159)
+autobuy.Visible = false
+
+UICorner_23.Parent = autobuy
+
+DropShadow_3.Name = "DropShadow"
+DropShadow_3.Parent = autobuy
+DropShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_3.BackgroundTransparency = 1.000
+DropShadow_3.BorderSizePixel = 0
+DropShadow_3.Position = UDim2.new(0.500801682, 0, 0.499181896, 0)
+DropShadow_3.Size = UDim2.new(1.02566814, 47, 1.06080103, 47)
+DropShadow_3.ZIndex = 0
+DropShadow_3.Image = "rbxassetid://6014261993"
+DropShadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_3.ImageTransparency = 0.500
+DropShadow_3.ScaleType = Enum.ScaleType.Slice
+DropShadow_3.SliceCenter = Rect.new(49, 49, 450, 450)
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(190, 33, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(121, 31, 144))}
+UIGradient_19.Rotation = 120
+UIGradient_19.Parent = autobuy
+
+rpg.Name = "rpg"
+rpg.Parent = autobuy
+rpg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rpg.Position = UDim2.new(0.273617625, 0, 0.0877210423, 0)
+rpg.Size = UDim2.new(0, 62, 0, 62)
+rpg.Font = Enum.Font.SourceSans
+rpg.Text = ""
+rpg.TextColor3 = Color3.fromRGB(0, 0, 0)
+rpg.TextSize = 14.000
+
+UICorner_24.Parent = rpg
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_20.Rotation = 120
+UIGradient_20.Parent = rpg
+
+TextLabel_13.Parent = rpg
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_13.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_13.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_13.Font = Enum.Font.GothamBlack
+TextLabel_13.Text = "rpg"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+armor.Name = "armor"
+armor.Parent = autobuy
+armor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+armor.Position = UDim2.new(0.740284264, 0, 0.0976220295, 0)
+armor.Size = UDim2.new(0, 62, 0, 62)
+armor.Font = Enum.Font.SourceSans
+armor.Text = ""
+armor.TextColor3 = Color3.fromRGB(0, 0, 0)
+armor.TextSize = 14.000
+
+UICorner_25.Parent = armor
+
+TextLabel_14.Parent = armor
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_14.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_14.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_14.Font = Enum.Font.GothamBlack
+TextLabel_14.Text = "armor"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_21.Rotation = 120
+UIGradient_21.Parent = armor
+
+dualsmg.Name = "dual smg"
+dualsmg.Parent = autobuy
+dualsmg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dualsmg.Position = UDim2.new(0.50417316, 0, 0.0976220295, 0)
+dualsmg.Size = UDim2.new(0, 62, 0, 62)
+dualsmg.Font = Enum.Font.SourceSans
+dualsmg.Text = ""
+dualsmg.TextColor3 = Color3.fromRGB(0, 0, 0)
+dualsmg.TextSize = 14.000
+
+UICorner_26.Parent = dualsmg
+
+TextLabel_15.Parent = dualsmg
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_15.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_15.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_15.Font = Enum.Font.GothamBlack
+TextLabel_15.Text = "dual smg"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_22.Rotation = 120
+UIGradient_22.Parent = dualsmg
+
+db.Name = "db"
+db.Parent = autobuy
+db.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+db.Position = UDim2.new(0.273617625, 0, 0.561280906, 0)
+db.Size = UDim2.new(0, 62, 0, 62)
+db.Font = Enum.Font.SourceSans
+db.Text = ""
+db.TextColor3 = Color3.fromRGB(0, 0, 0)
+db.TextSize = 14.000
+
+UICorner_27.Parent = db
+
+TextLabel_16.Parent = db
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_16.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_16.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_16.Font = Enum.Font.GothamBlack
+TextLabel_16.Text = "DB"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_23.Rotation = 120
+UIGradient_23.Parent = db
+
+dualrev.Name = "dual rev"
+dualrev.Parent = autobuy
+dualrev.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dualrev.Position = UDim2.new(0.0430620611, 0, 0.0976220295, 0)
+dualrev.Size = UDim2.new(0, 62, 0, 62)
+dualrev.Font = Enum.Font.SourceSans
+dualrev.Text = ""
+dualrev.TextColor3 = Color3.fromRGB(0, 0, 0)
+dualrev.TextSize = 14.000
+
+UICorner_28.Parent = dualrev
+
+TextLabel_17.Parent = dualrev
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_17.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_17.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_17.Font = Enum.Font.GothamBlack
+TextLabel_17.Text = "dual rev"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+
+UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_24.Rotation = 120
+UIGradient_24.Parent = dualrev
+
+mask_3.Name = "mask"
+mask_3.Parent = autobuy
+mask_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mask_3.Position = UDim2.new(0.740284264, 0, 0.571181893, 0)
+mask_3.Size = UDim2.new(0, 62, 0, 62)
+mask_3.Font = Enum.Font.SourceSans
+mask_3.Text = ""
+mask_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+mask_3.TextSize = 14.000
+
+UICorner_29.Parent = mask_3
+
+TextLabel_18.Parent = mask_3
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_18.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_18.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_18.Font = Enum.Font.GothamBlack
+TextLabel_18.Text = "Mask"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_25.Rotation = 120
+UIGradient_25.Parent = mask_3
+
+revolver_2.Name = "revolver"
+revolver_2.Parent = autobuy
+revolver_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+revolver_2.Position = UDim2.new(0.0430620611, 0, 0.571181893, 0)
+revolver_2.Size = UDim2.new(0, 62, 0, 62)
+revolver_2.Font = Enum.Font.SourceSans
+revolver_2.Text = ""
+revolver_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+revolver_2.TextSize = 14.000
+
+UICorner_30.Parent = revolver_2
+
+TextLabel_19.Parent = revolver_2
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_19.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_19.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_19.Font = Enum.Font.GothamBlack
+TextLabel_19.Text = "Rev"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_26.Rotation = 120
+UIGradient_26.Parent = revolver_2
+
+smg_2.Name = "smg"
+smg_2.Parent = autobuy
+smg_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+smg_2.Position = UDim2.new(0.50417316, 0, 0.571181893, 0)
+smg_2.Size = UDim2.new(0, 62, 0, 62)
+smg_2.Font = Enum.Font.SourceSans
+smg_2.Text = ""
+smg_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+smg_2.TextSize = 14.000
+
+UICorner_31.Parent = smg_2
+
+TextLabel_20.Parent = smg_2
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_20.Position = UDim2.new(-0.354838699, 0, 0.312258065, 0)
+TextLabel_20.Size = UDim2.new(0, 105, 0, 22)
+TextLabel_20.Font = Enum.Font.GothamBlack
+TextLabel_20.Text = "Smg"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
+
+UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_27.Rotation = 120
+UIGradient_27.Parent = smg_2
+
+autoarmor.Name = "autoarmor"
+autoarmor.Parent = main
+autoarmor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autoarmor.Position = UDim2.new(0.506998062, 0, 0.709667563, 0)
+autoarmor.Size = UDim2.new(0, 62, 0, 62)
+autoarmor.Font = Enum.Font.SourceSans
+autoarmor.Text = ""
+autoarmor.TextColor3 = Color3.fromRGB(0, 0, 0)
+autoarmor.TextSize = 14.000
+
+UICorner_32.Parent = autoarmor
+
+autobuyarmor.Name = "auto buy armor"
+autobuyarmor.Parent = autoarmor
+autobuyarmor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autobuyarmor.BackgroundTransparency = 1.000
+autobuyarmor.BorderColor3 = Color3.fromRGB(27, 42, 53)
+autobuyarmor.Position = UDim2.new(0, 0, 0.0483875908, 0)
+autobuyarmor.Size = UDim2.new(0, 62, 0, 58)
+autobuyarmor.Font = Enum.Font.GothamBlack
+autobuyarmor.Text = "auto armor"
+autobuyarmor.TextColor3 = Color3.fromRGB(255, 255, 255)
+autobuyarmor.TextScaled = true
+autobuyarmor.TextSize = 15.000
+autobuyarmor.TextWrapped = true
+
+UIGradient_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(224, 47, 255))}
+UIGradient_28.Rotation = 120
+UIGradient_28.Parent = autoarmor
+
+-- Scripts:
+
+local function MJDRJH_fake_script() -- Username.LocalScript 
+	local script = Instance.new('LocalScript', Username)
+
+	script.Parent.Text = "@" .. game.Players.LocalPlayer.Name;
+	
+end
+coroutine.wrap(MJDRJH_fake_script)()
+local function HXMUEU_fake_script() -- AvatarImage.LocalScript 
+	local script = Instance.new('LocalScript', AvatarImage)
+
+	local l__Players__1 = game:GetService("Players");
+	local v2, v3 = l__Players__1:GetUserThumbnailAsync(l__Players__1.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420);
+	script.Parent.Image = v2;
+	
+end
+coroutine.wrap(HXMUEU_fake_script)()
+local function BZLZTD_fake_script() -- headuwu.LocalScript 
+	local script = Instance.new('LocalScript', headuwu)
+
+	local picture = script.Parent.Parent.headuwu
+	local bro = 'rbxthumb://type=AvatarHeadShot&id=392728842&w=420&h=420' --brogames2003
+	
+	
+	
+	while true do
+	
+		picture.Image = bro
+		wait(3)
 		
 	end
-	coroutine.wrap(FRXYP_fake_script)()
-	local function JPFQOT_fake_script() -- AvatarImage.LocalScript 
-		local script = Instance.new('LocalScript', AvatarImage)
+end
+coroutine.wrap(BZLZTD_fake_script)()
+local function DDXIHR_fake_script() -- main.hidefromthepolice 
+	local script = Instance.new('LocalScript', main)
 
-		local l__Players__1 = game:GetService("Players");
-		local v2, v3 = l__Players__1:GetUserThumbnailAsync(l__Players__1.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420);
-		script.Parent.Image = v2;
+	local UIS = game:GetService("UserInputService")
+	local gui = script.Parent
+	
+	UIS.InputBegan:Connect(function(key,b)
 		
-	end
-	coroutine.wrap(JPFQOT_fake_script)()
-	local function XELH_fake_script() -- headuwu.LocalScript 
-		local script = Instance.new('LocalScript', headuwu)
-
-		local picture = script.Parent.Parent.headuwu
-		local bro = 'rbxthumb://type=AvatarHeadShot&id=392728842&w=420&h=420' --brogames2003
-		
-		
-		
-		while true do
-		
-			picture.Image = bro
-			wait(3)
-			
+		if key.KeyCode == Enum.KeyCode.V and not b then
+			if gui.Visible == true then
+				gui.Visible = false
+			else
+				gui.Visible = true
+			end
 		end
-	end
-	coroutine.wrap(XELH_fake_script)()
-	local function AVEPZXP_fake_script() -- main.hidefromthepolice 
-		local script = Instance.new('LocalScript', main)
+	end)
+end
+coroutine.wrap(DDXIHR_fake_script)()
+local function LRMHZ_fake_script() -- main.dragg 
+	local script = Instance.new('LocalScript', main)
 
-		local UIS = game:GetService("UserInputService")
-		local gui = script.Parent
-		
-		UIS.InputBegan:Connect(function(key,b)
-			
-			if key.KeyCode == Enum.KeyCode.V and not b then
-				if gui.Visible == true then
-					gui.Visible = false
-				else
-					gui.Visible = true
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
 				end
-			end
-		end)
-	end
-	coroutine.wrap(AVEPZXP_fake_script)()
-	local function XCFMC_fake_script() -- main.dragg 
-		local script = Instance.new('LocalScript', main)
-
-		local UserInputService = game:GetService("UserInputService")
-		
-		local gui = script.Parent
-		
-		local dragging
-		local dragInput
-		local dragStart
-		local startPos
-		
-		local function update(input)
-			local delta = input.Position - dragStart
-			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			end)
 		end
-		
-		gui.InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-				dragging = true
-				dragStart = input.Position
-				startPos = gui.Position
-		
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragging = false
-					end
-				end)
-			end
-		end)
-		
-		gui.InputChanged:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-				dragInput = input
-			end
-		end)
-		
-		UserInputService.InputChanged:Connect(function(input)
-			if input == dragInput and dragging then
-				update(input)
-			end
-		end)
-	end
-	coroutine.wrap(XCFMC_fake_script)()
-	local function FOGETUP_fake_script() -- mask.LocalScript 
-		local script = Instance.new('LocalScript', mask)
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(LRMHZ_fake_script)()
+local function YBSYCYN_fake_script() -- mask.LocalScript 
+	local script = Instance.new('LocalScript', mask)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/mask-remover/main/mask%20remover%20anarchy'))()
-		end)
-	end
-	coroutine.wrap(FOGETUP_fake_script)()
-	local function EFCO_fake_script() -- infyield.LocalScript 
-		local script = Instance.new('LocalScript', infyield)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/mask-remover/main/mask%20remover%20anarchy'))()
+	end)
+end
+coroutine.wrap(YBSYCYN_fake_script)()
+local function CXWBN_fake_script() -- infyield.LocalScript 
+	local script = Instance.new('LocalScript', infyield)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-		end)
-	end
-	coroutine.wrap(EFCO_fake_script)()
-	local function LUXXWJC_fake_script() -- gravitygun.LocalScript 
-		local script = Instance.new('LocalScript', gravitygun)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(CXWBN_fake_script)()
+local function OGTEHW_fake_script() -- gravitygun.LocalScript 
+	local script = Instance.new('LocalScript', gravitygun)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/gravity-gun/main/gravity%20gun'))()
-		end)
-	end
-	coroutine.wrap(LUXXWJC_fake_script)()
-	local function WSQUR_fake_script() -- lock.LocalScript 
-		local script = Instance.new('LocalScript', lock)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/gravity-gun/main/gravity%20gun'))()
+	end)
+end
+coroutine.wrap(OGTEHW_fake_script)()
+local function ZYNORD_fake_script() -- lock.LocalScript 
+	local script = Instance.new('LocalScript', lock)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/aim/main/kitten%20assist'))()
-		end)
-	end
-	coroutine.wrap(WSQUR_fake_script)()
-	local function ZGDOIZ_fake_script() -- chatspy.LocalScript 
-		local script = Instance.new('LocalScript', chatspy)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/aim/main/kitten%20assist'))()
+	end)
+end
+coroutine.wrap(ZYNORD_fake_script)()
+local function YRUPQ_fake_script() -- chatspy.LocalScript 
+	local script = Instance.new('LocalScript', chatspy)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/chat-spy/main/chat%20spy'))()
-		end)
-	end
-	coroutine.wrap(ZGDOIZ_fake_script)()
-	local function NPGYLA_fake_script() -- gym.LocalScript 
-		local script = Instance.new('LocalScript', gym)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/chat-spy/main/chat%20spy'))()
+	end)
+end
+coroutine.wrap(YRUPQ_fake_script)()
+local function ZRYCC_fake_script() -- gym.LocalScript 
+	local script = Instance.new('LocalScript', gym)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/gym'))()
-		end)
-	end
-	coroutine.wrap(NPGYLA_fake_script)()
-	local function REPH_fake_script() -- bank.LocalScript 
-		local script = Instance.new('LocalScript', bank)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/gym'))()
+	end)
+end
+coroutine.wrap(ZRYCC_fake_script)()
+local function ZROUE_fake_script() -- bank.LocalScript 
+	local script = Instance.new('LocalScript', bank)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/bank'))()
-		end)
-	end
-	coroutine.wrap(REPH_fake_script)()
-	local function MZDY_fake_script() -- casino.LocalScript 
-		local script = Instance.new('LocalScript', casino)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/bank'))()
+	end)
+end
+coroutine.wrap(ZROUE_fake_script)()
+local function DCTGAT_fake_script() -- casino.LocalScript 
+	local script = Instance.new('LocalScript', casino)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/casino'))()
-		end)
-	end
-	coroutine.wrap(MZDY_fake_script)()
-	local function YSQL_fake_script() -- bridge.LocalScript 
-		local script = Instance.new('LocalScript', bridge)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/casino'))()
+	end)
+end
+coroutine.wrap(DCTGAT_fake_script)()
+local function WCRQYAN_fake_script() -- bridge.LocalScript 
+	local script = Instance.new('LocalScript', bridge)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/bridge'))()
-		end)
-	end
-	coroutine.wrap(YSQL_fake_script)()
-	local function LJKSD_fake_script() -- mask_2.LocalScript 
-		local script = Instance.new('LocalScript', mask_2)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/bridge'))()
+	end)
+end
+coroutine.wrap(WCRQYAN_fake_script)()
+local function ATBRKK_fake_script() -- mask_2.LocalScript 
+	local script = Instance.new('LocalScript', mask_2)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/mask'))()
-		end)
-	end
-	coroutine.wrap(LJKSD_fake_script)()
-	local function YIEX_fake_script() -- smg.LocalScript 
-		local script = Instance.new('LocalScript', smg)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/mask'))()
+	end)
+end
+coroutine.wrap(ATBRKK_fake_script)()
+local function KAJCWTO_fake_script() -- smg.LocalScript 
+	local script = Instance.new('LocalScript', smg)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/smg'))()
-		end)
-	end
-	coroutine.wrap(YIEX_fake_script)()
-	local function MGWGXJ_fake_script() -- doublebarrel.LocalScript 
-		local script = Instance.new('LocalScript', doublebarrel)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/smg'))()
+	end)
+end
+coroutine.wrap(KAJCWTO_fake_script)()
+local function XURJ_fake_script() -- doublebarrel.LocalScript 
+	local script = Instance.new('LocalScript', doublebarrel)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/db'))()
-		end)
-	end
-	coroutine.wrap(MGWGXJ_fake_script)()
-	local function LTKADO_fake_script() -- revolver.LocalScript 
-		local script = Instance.new('LocalScript', revolver)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/db'))()
+	end)
+end
+coroutine.wrap(XURJ_fake_script)()
+local function GFVVG_fake_script() -- revolver.LocalScript 
+	local script = Instance.new('LocalScript', revolver)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/revolvers'))()
-		end)
-	end
-	coroutine.wrap(LTKADO_fake_script)()
-	local function IIROIW_fake_script() -- tele.LocalScript 
-		local script = Instance.new('LocalScript', tele)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/teleports/main/revolvers'))()
+	end)
+end
+coroutine.wrap(GFVVG_fake_script)()
+local function MQWIYIJ_fake_script() -- tele.LocalScript 
+	local script = Instance.new('LocalScript', tele)
 
-		local anarchy = script.Parent.Parent
-		local tele = anarchy.tele
-		local teleport = anarchy.Teleports
-		
-		
-		tele.MouseButton1Click:Connect(function()
-			if teleport.Visible == true  then
-				teleport.Visible = false
-			else
-				teleport.Visible = true
-			end
-		end)
-		
-		-- wardone best pro scripter ive ever seen he did this with his eyes closed and typed with his feet
-	end
-	coroutine.wrap(IIROIW_fake_script)()
-	local function KRLZ_fake_script() -- auto.LocalScript 
-		local script = Instance.new('LocalScript', auto)
+	local anarchy = script.Parent.Parent
+	local tele = anarchy.tele
+	local teleport = anarchy.Teleports
+	
+	
+	tele.MouseButton1Click:Connect(function()
+		if teleport.Visible == true  then
+			teleport.Visible = false
+		else
+			teleport.Visible = true
+		end
+	end)
+	
+	-- wardone best pro scripter ive ever seen he did this with his eyes closed and typed with his feet
+end
+coroutine.wrap(MQWIYIJ_fake_script)()
+local function QXYTFAZ_fake_script() -- auto.LocalScript 
+	local script = Instance.new('LocalScript', auto)
 
-		local anarchy = script.Parent.Parent
-		local auto = anarchy.auto
-		local autobuy = anarchy.autobuy
-		
-		
-		auto.MouseButton1Click:Connect(function()
-			if autobuy.Visible == true  then
-				autobuy.Visible = false
-			else
-				autobuy.Visible = true
-			end
-		end)
-		
-		-- wardone best pro scripter ive ever seen he did this with his eyes closed and typed with his feet
-	end
-	coroutine.wrap(KRLZ_fake_script)()
-	local function QAWRK_fake_script() -- rpg.LocalScript 
-		local script = Instance.new('LocalScript', rpg)
+	local anarchy = script.Parent.Parent
+	local auto = anarchy.auto
+	local autobuy = anarchy.autobuy
+	
+	
+	auto.MouseButton1Click:Connect(function()
+		if autobuy.Visible == true  then
+			autobuy.Visible = false
+		else
+			autobuy.Visible = true
+		end
+	end)
+	
+	-- wardone best pro scripter ive ever seen he did this with his eyes closed and typed with his feet
+end
+coroutine.wrap(QXYTFAZ_fake_script)()
+local function AABL_fake_script() -- rpg.LocalScript 
+	local script = Instance.new('LocalScript', rpg)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/rpg'))()
-		end)
-	end
-	coroutine.wrap(QAWRK_fake_script)()
-	local function TUNPEBR_fake_script() -- armor.LocalScript 
-		local script = Instance.new('LocalScript', armor)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/rpg'))()
+	end)
+end
+coroutine.wrap(AABL_fake_script)()
+local function DGPW_fake_script() -- armor.LocalScript 
+	local script = Instance.new('LocalScript', armor)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/high%20armor'))()
-		end)
-	end
-	coroutine.wrap(TUNPEBR_fake_script)()
-	local function ZQPN_fake_script() -- dualsmg.LocalScript 
-		local script = Instance.new('LocalScript', dualsmg)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/high%20armor'))()
+	end)
+end
+coroutine.wrap(DGPW_fake_script)()
+local function FMGW_fake_script() -- dualsmg.LocalScript 
+	local script = Instance.new('LocalScript', dualsmg)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/duel%20smg'))()
-		end)
-	end
-	coroutine.wrap(ZQPN_fake_script)()
-	local function CVFPT_fake_script() -- db.LocalScript 
-		local script = Instance.new('LocalScript', db)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/duel%20smg'))()
+	end)
+end
+coroutine.wrap(FMGW_fake_script)()
+local function PYHTY_fake_script() -- db.LocalScript 
+	local script = Instance.new('LocalScript', db)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/db'))()
-		end)
-	end
-	coroutine.wrap(CVFPT_fake_script)()
-	local function JJHIIW_fake_script() -- dualrev.LocalScript 
-		local script = Instance.new('LocalScript', dualrev)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/db'))()
+	end)
+end
+coroutine.wrap(PYHTY_fake_script)()
+local function OIYDRO_fake_script() -- dualrev.LocalScript 
+	local script = Instance.new('LocalScript', dualrev)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/duel%20rev'))()
-		end)
-	end
-	coroutine.wrap(JJHIIW_fake_script)()
-	local function OUBHXTT_fake_script() -- mask_3.LocalScript 
-		local script = Instance.new('LocalScript', mask_3)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/duel%20rev'))()
+	end)
+end
+coroutine.wrap(OIYDRO_fake_script)()
+local function BDQG_fake_script() -- mask_3.LocalScript 
+	local script = Instance.new('LocalScript', mask_3)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/mask'))()
-		end)
-	end
-	coroutine.wrap(OUBHXTT_fake_script)()
-	local function JKKE_fake_script() -- revolver_2.LocalScript 
-		local script = Instance.new('LocalScript', revolver_2)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/mask'))()
+	end)
+end
+coroutine.wrap(BDQG_fake_script)()
+local function MYVDQUG_fake_script() -- revolver_2.LocalScript 
+	local script = Instance.new('LocalScript', revolver_2)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/revolver'))()
-		end)
-	end
-	coroutine.wrap(JKKE_fake_script)()
-	local function JXMIX_fake_script() -- smg_2.LocalScript 
-		local script = Instance.new('LocalScript', smg_2)
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/revolver'))()
+	end)
+end
+coroutine.wrap(MYVDQUG_fake_script)()
+local function ARYAOY_fake_script() -- smg_2.LocalScript 
+	local script = Instance.new('LocalScript', smg_2)
 
-		local button = script.parent
-		
-		button.MouseButton1Down:Connect(function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/smg'))()
-		end)
-	end
-	coroutine.wrap(JXMIX_fake_script)()
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/smg'))()
+	end)
+end
+coroutine.wrap(ARYAOY_fake_script)()
+local function CDIPTK_fake_script() -- autoarmor.LocalScript 
+	local script = Instance.new('LocalScript', autoarmor)
+
+	local button = script.parent
+	
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/brogames2003/autobuy/main/auto%20armor'))()
+	end)
+end
+coroutine.wrap(CDIPTK_fake_script)()
